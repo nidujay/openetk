@@ -20,7 +20,7 @@ include_directories(${THIRD_PARTY_DIR})
 # TODO This belongs in the App area
 set(FREERTOS_PORT_DIR ${THIRD_PARTY_DIR}/Posix_GCC_Simulator/FreeRTOS_Posix/FreeRTOS_Kernel/portable/GCC/Posix)
 include_directories(${FREERTOS_PORT_DIR})
-include_directories(${THIRD_PARTY_DIR}/Posix_GCC_Simulator/FreeRTOS_Posix)
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/services/testing/config/posix)
 
 # Create a variable to where unity is located. This is global to the
 # whole framework
