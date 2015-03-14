@@ -1,0 +1,16 @@
+- Language: C++11
+- Return codes for errors
+- Constructor errors notified via callbacks
+- error codes : system level codes contained in class XXX
+- Messages : Reserved message ID's
+- Bigloop and threads
+
+TODO
+- Coding standard
+- Doxygen
+
+Tools:
+- FreeRTOS - 6.0.4 (due to posix)
+- Unity (version?)
+- cmake
+- 
