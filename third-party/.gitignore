@@ -1,0 +1,5 @@
+.gitignore
+FreeRTOS
+FreeRTOSV6.0.4.zip
+name=Posix_GCC_Simulator_6.0.4.zip
+Posix_GCC_Simulator
