@@ -48,7 +48,8 @@ ExternalProject_Add(freertos_posix_download
 
 set_source_files_properties(${FREERTOS_POSIX_SRC_DIR}/port.c PROPERTIES GENERATED TRUE)
 add_library(freertos_port ${FREERTOS_POSIX_SRC_DIR}/port.c)
-add_dependencies(freertos freertos_download)
+add_dependencies(freertos_port freertos_posix_download)
+add_dependencies(freertos freertos_port)
 
 # The posix port requires pthreads to be available
 find_package (Threads)
